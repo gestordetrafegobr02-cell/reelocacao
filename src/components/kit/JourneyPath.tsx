@@ -23,7 +23,9 @@ export function JourneyPath({ tone = "dark" }: { tone?: "dark" | "light" }) {
   const label = tone === "dark" ? "var(--color-aqua)" : "var(--color-navy)";
   const faint = tone === "dark" ? "var(--color-teal)" : "var(--color-slate-support)";
 
-  const d = `M ${POINTS[0].x} ${POINTS[0].y} C 90 190, 100 96, ${POINTS[1].x} ${POINTS[1].y} S 220 176, ${POINTS[2].x} ${POINTS[2].y} S 340 70, ${POINTS[3].x} ${POINTS[3].y} S 460 150, ${POINTS[4].x} ${POINTS[4].y}`;
+  const d =
+    "M 40 168 C 90 190, 100 96, 150 96 S 220 176, 268 150 S 340 70, 386 78 S 460 150, 496 132";
+
 
   return (
     <svg

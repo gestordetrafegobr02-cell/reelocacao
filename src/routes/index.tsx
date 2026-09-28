@@ -81,7 +81,7 @@ function Index() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative mx-auto w-full max-w-lg py-20 sm:py-24 lg:mx-0">
             <div className="rounded-2xl border border-teal-soft/25 bg-navy/45 p-5 backdrop-blur-[2px] sm:p-7">
               <p className="text-[0.68rem] uppercase tracking-[0.24em] text-aqua/55">
                 Percurso do método
@@ -91,10 +91,11 @@ function Index() {
               </div>
             </div>
 
-            <JobCard className="float-slow absolute -left-3 -top-8 w-32 drop-shadow-xl sm:-left-10 sm:w-40" />
-            <ResumeSheet className="float-slower absolute -bottom-10 -left-2 w-24 drop-shadow-xl sm:-left-8 sm:w-28" />
-            <Checklist className="float-slow absolute -right-2 -bottom-12 w-28 drop-shadow-xl sm:-right-8 sm:w-32" />
+            <JobCard className="float-slow absolute -top-2 left-2 w-28 -rotate-2 drop-shadow-xl sm:left-6 sm:w-36" />
+            <ResumeSheet className="float-slower absolute -bottom-2 left-0 w-20 rotate-2 drop-shadow-xl sm:w-24" />
+            <Checklist className="float-slow absolute -bottom-1 right-0 w-24 -rotate-1 drop-shadow-xl sm:w-28" />
           </div>
+
         </div>
       </section>
 
